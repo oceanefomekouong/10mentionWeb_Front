@@ -14,6 +14,42 @@
 
 
         -->
+        <style>
+
+           /* Style dans la balise head */
+            body{
+
+                background-color: lightgray;
+                
+                
+              }
+
+              h2 {
+                color :red
+              }
+
+              h3{
+               background-color: pink;
+               text-align: center;
+              }
+              
+              
+           
+
+
+
+
+        </style>
+<!-- 
+        <link> : C'est la balise utilisée pour lier des ressources externes à un document HTML.
+        Les attributs : 
+        1- rel="stylesheet" : spécifie la relation entre le document actuel et la ressource liée => indique que la ressource liée est une feuille de style utilisée pour la mise en forme de la page.
+        2- type="text/css : spécifie le type de média associé à la ressource liée. => indique que la ressource est une feuille de style en langage CSS (Cascading Style Sheets).
+        3- href="assets/css/00_structure_de_base.css : spécifie l'emplacement (chemin) de la ressource externe à lier
+    -->
+
+
+        <link rel="stylesheet"  type="text/css" href="assets/css/01_balises_d_affichages.css">
 
         <title> Balise de texte et de CSS</title>
 </head>
@@ -55,8 +91,50 @@
        <h5>Titre de niveau 5 </h5>
        <h6>Titre de niveau 6 </h6>
 
-       <hr> <!-- hr horizontal ruler = ligne horizontal de type block -->
+       <hr> <!-- hr horizontal ruler = ligne horizontal de type bloc -->
 
+    <!--  t
+        La balise <p> en HTML est utilisée pour définir un paragraphe de texte. Elle indique au navigateur web que le texte à l'intérieur de la balise doit être interprété comme un paragraphe distinct. 
+        Les paragraphes sont des éléments de type bloc
+        On ne doit pas mettre un paragraphe dans un paragraphe 
+    -->
+
+       <p> Ceci est un paragraphe , il n'y a qu'une seule phrase ...</p><p>Et la un second paragraphe . </p>
+       <p>
+           Un paragraphe
+           sur 
+           plusieurs dans le code
+
+       </p>
+n 
+       <hr>
+
+       <h2>le CSS: Cascading style Sheet</h2>
+       <p>Le CSS permet de faire du style sur nos pages html</p>
+       <!--3 façons pour déclarer le style :
+              - style en ligne 
+              - style dans la balise <style> directement dans la partie head ( l'en te-tete)
+              - déclarer le style dans un fichier , css : feuille de style
+     -->
+
+     <h3>Le CSS dans la balise </h3>
+     <p>La premierr facon de faire du style dans un élément est de déclarer l'attribut style sur celui -là .Ce 'est pas la meilleure manière de le faire</p>
+
+     <p style="color: green; font-weight: bolder;"> Je suis un paragraphe styléeeee</p>
+
+     <h3>Le CSS dans l'en-tête </h3>
+      <p>Une seconde façon de faire dustyle sur notre page et de mettre la balise style dans la partie head. Cette méthode n'est toujours pas la plus conseilée mais elle permet plus de choses que la méthode balises en ligne , on peut désormais grace a cette methode viser plusieurs éléments d'un coup ., Exemple , on met du gris en fond sur le corp de la page , les h2 en rouge et les h3 avec un fond rose</p>
+
+      <h3>Le CSS dans une feuille de style externe </h3>
+      <p>La dernisère et meilleure façon de faire du style est la méthode suivante :
+        on crée un dossier css avec un fichier style.css à 'intérieur il faudra alors lier nos deux fichiers grace à la balise link. On pourra alors faire du style sur les éléments qui se trouvent dzns notre page . Exemple , on déclare que tous les paragraphes doivent etre en bleu
+
+      </p>
 
 </body>
 </html>
+
+
+
+
+
