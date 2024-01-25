@@ -7,9 +7,9 @@
    selecteur{
     propriété ; valeur}
 
-    */
+    */ je selectionne deux éléments 
 
-    p {
+    p,pre {
         color: blue;
     }
 
@@ -21,3 +21,8 @@
         ->notation rgba(255,255,255,0) -> le dernier chiffre correspond à l'opacité : entre 0 (transparent) et 1 (opaque)
         -notation avec mots clés -> red, green, bleu ... 
 */
+
+span {
+
+    color: green;
+}
