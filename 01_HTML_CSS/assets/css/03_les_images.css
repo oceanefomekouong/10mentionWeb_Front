@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+div p {
+
+
+    background-color: rgba(5, , , );
+
+}
+
+
+
+
+/*style pour la classe nommée "imageCheval" */
+.imageCheval {
+
+    /* la proprété transition permet de spécifier une transition animée entre les états d'un élémnt */
+      transition: transform 1s;
+      
+
+
+}
+
+.imageCheval:hover{
+
+    /* La propriété transfrom avec la fnction sclale (), permet de mofifier l'échelle d'un élémént en modifiant sa taille la fonction scale () prend un argument , qui est le facteur d'échelle */
+
+
+    transform: scale(-1.1); /* Agrandit l'élément à 110% de sa taille d'origine */
+
+}
+
+/* style pour la classe nomée "imageDauphin" */
+
+.imageDauphin {
+
+
+    display: block; /*Définit l'affichage de l'élément en tant que block*/
+    margin: 30px auto;
+    transition: transform 1s;
+}
+
+.imageDauphin:hover {
+
+
+    transform: rotate(-10deg);/* Fait tourner l'image de -10deg lorsqu'elle est survolée*/
+}

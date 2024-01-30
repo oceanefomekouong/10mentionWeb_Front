@@ -1,0 +1,72 @@
+/* Feuille de style pour la page:balises de mise en page*/
+
+body {
+
+    background-color: #EEEDEB;
+}
+
+div.navigation {
+    text-align: center;
+    border: 2px solid   #3C0753  ;
+    padding: 20px;
+
+
+}
+h1{
+ text-transform: uppercase;
+ color: #3C0753;
+ font-size: 50px;
+
+}
+ .navigation a {
+    
+     background-color: #D9A9DB;
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+     display: inline-block;
+     width: 33%;
+     padding: 5px 0;
+     border-radius: 10px;
+
+}
+.navigation a:hover {
+
+    background-color: #3C0753;
+}
+
+div.main {
+
+    border: 2px solid #3C0753; 
+    padding: 20px 50px;
+    margin-top: 10px;
+}
+
+div.section1,div.section2{
+    text-align: center;
+}
+
+div.section1 img{
+    border-radius: 20px;
+}
+
+
+div.section2 {
+    background-image: url(../img/maik-jonietz-_yMciiStJyY-unsplash.jpg);
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+
+div.section2 p{
+    
+       display: inline-block;
+       border: solid 2px  #3C0753;
+       width: 33%;
+       padding: 20px;
+       background-color:black;
+       text-align: left;
+}
